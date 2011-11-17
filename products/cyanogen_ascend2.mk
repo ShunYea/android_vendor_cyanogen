@@ -11,12 +11,12 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_ascend2
+PRODUCT_NAME := cyanogen_C8650
 PRODUCT_BRAND := Huawei
-PRODUCT_DEVICE := ascend2
-PRODUCT_MODEL := M865
+PRODUCT_DEVICE := C8650
+PRODUCT_MODEL := C8650
 PRODUCT_MANUFACTURER := Huawei
-PRODUCT_BOARD := M865
+PRODUCT_BOARD := C8650
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=M865 BUILD_ID=GINGERBREAD BUILD_DISPLAY_ID=CM7A2-$(shell date +%m%d%Y) BUILD_FINGERPRINT=Huawei/M865/hwm865:2.3.5/HuaweiM865/PlayfulGod:user/ota-rel-keys,release-keys PRODUCT_DEVICE=hwm865
 
 
