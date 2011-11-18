@@ -11,7 +11,7 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_C8650
+PRODUCT_NAME := cyanogen_ascend2
 PRODUCT_BRAND := Huawei
 PRODUCT_DEVICE := C8650
 PRODUCT_MODEL := C8650
